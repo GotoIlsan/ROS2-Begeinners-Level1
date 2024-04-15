@@ -1,0 +1,5 @@
+[console_scripts]
+counter_reseter = activities2.counter_reseter:main
+number_counter = activities2.number_counter:main
+number_publisher = activities2.number_publisher:main
+

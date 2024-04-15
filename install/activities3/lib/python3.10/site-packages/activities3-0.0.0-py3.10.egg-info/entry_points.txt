@@ -1,0 +1,4 @@
+[console_scripts]
+battery_node = activities3.battery_node:main
+led_panel_node = activities3.led_panel_node:main
+

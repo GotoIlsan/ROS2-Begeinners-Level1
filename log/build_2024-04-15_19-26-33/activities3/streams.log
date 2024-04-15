@@ -1,0 +1,41 @@
+[0.679s] Invoking command in '/home/kim/ros2_ws/src/activities3': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/activities3/prefix_override:/home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities3 build --build-base /home/kim/ros2_ws/build/activities3/build install --record /home/kim/ros2_ws/build/activities3/install.log --single-version-externally-managed install_data
+[0.813s] running egg_info
+[0.813s] creating ../../build/activities3/activities3.egg-info
+[0.813s] writing ../../build/activities3/activities3.egg-info/PKG-INFO
+[0.813s] writing dependency_links to ../../build/activities3/activities3.egg-info/dependency_links.txt
+[0.813s] writing entry points to ../../build/activities3/activities3.egg-info/entry_points.txt
+[0.813s] writing requirements to ../../build/activities3/activities3.egg-info/requires.txt
+[0.813s] writing top-level names to ../../build/activities3/activities3.egg-info/top_level.txt
+[0.813s] writing manifest file '../../build/activities3/activities3.egg-info/SOURCES.txt'
+[0.814s] reading manifest file '../../build/activities3/activities3.egg-info/SOURCES.txt'
+[0.815s] writing manifest file '../../build/activities3/activities3.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.820s] creating /home/kim/ros2_ws/build/activities3/build
+[0.820s] creating /home/kim/ros2_ws/build/activities3/build/lib
+[0.820s] creating /home/kim/ros2_ws/build/activities3/build/lib/activities3
+[0.820s] copying activities3/battery_node.py -> /home/kim/ros2_ws/build/activities3/build/lib/activities3
+[0.820s] copying activities3/led_panel_node.py -> /home/kim/ros2_ws/build/activities3/build/lib/activities3
+[0.820s] copying activities3/__init__.py -> /home/kim/ros2_ws/build/activities3/build/lib/activities3
+[0.820s] running install
+[0.821s] running install_lib
+[0.824s] creating /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+[0.824s] copying /home/kim/ros2_ws/build/activities3/build/lib/activities3/battery_node.py -> /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+[0.824s] copying /home/kim/ros2_ws/build/activities3/build/lib/activities3/led_panel_node.py -> /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+[0.824s] copying /home/kim/ros2_ws/build/activities3/build/lib/activities3/__init__.py -> /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+[0.824s] byte-compiling /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3/battery_node.py to battery_node.cpython-310.pyc
+[0.824s] byte-compiling /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3/led_panel_node.py to led_panel_node.cpython-310.pyc
+[0.824s] byte-compiling /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3/__init__.py to __init__.cpython-310.pyc
+[0.824s] running install_data
+[0.824s] creating /home/kim/ros2_ws/install/activities3/share/ament_index
+[0.824s] creating /home/kim/ros2_ws/install/activities3/share/ament_index/resource_index
+[0.824s] creating /home/kim/ros2_ws/install/activities3/share/ament_index/resource_index/packages
+[0.824s] copying resource/activities3 -> /home/kim/ros2_ws/install/activities3/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> /home/kim/ros2_ws/install/activities3/share/activities3
+[0.824s] running install_egg_info
+[0.824s] Copying ../../build/activities3/activities3.egg-info to /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3-0.0.0-py3.10.egg-info
+[0.825s] running install_scripts
+[0.836s] Installing battery_node script to /home/kim/ros2_ws/install/activities3/lib/activities3
+[0.837s] Installing led_panel_node script to /home/kim/ros2_ws/install/activities3/lib/activities3
+[0.838s] writing list of installed files to '/home/kim/ros2_ws/build/activities3/install.log'
+[0.873s] Invoked command in '/home/kim/ros2_ws/src/activities3' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/activities3/prefix_override:/home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities3 build --build-base /home/kim/ros2_ws/build/activities3/build install --record /home/kim/ros2_ws/build/activities3/install.log --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+[0.686s] Invoking command in '/home/kim/ros2_ws/src/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/kim/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/kim/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[0.812s] running egg_info
+[0.813s] creating ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info
+[0.813s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.814s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.814s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.814s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[0.817s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[0.817s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.817s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.817s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.819s] running build_py
+[0.819s] creating /home/kim/ros2_ws/build/turtlesim_catch_them_all/build
+[0.819s] creating /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib
+[0.819s] creating /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.819s] copying turtlesim_catch_them_all/turtle_controller.py -> /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.819s] copying turtlesim_catch_them_all/__init__.py -> /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.841s] copying turtlesim_catch_them_all/turtle_spawner.py -> /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.841s] running install
+[0.841s] running install_lib
+[0.841s] creating /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.841s] copying /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_controller.py -> /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.841s] copying /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/__init__.py -> /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.841s] copying /home/kim/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_spawner.py -> /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.841s] byte-compiling /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.841s] byte-compiling /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/__init__.py to __init__.cpython-310.pyc
+[0.841s] byte-compiling /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[0.841s] running install_data
+[0.841s] creating /home/kim/ros2_ws/install/turtlesim_catch_them_all/share/ament_index
+[0.842s] creating /home/kim/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index
+[0.842s] creating /home/kim/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[0.842s] copying resource/turtlesim_catch_them_all -> /home/kim/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[0.842s] copying package.xml -> /home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[0.842s] running install_egg_info
+[0.842s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info
+[0.842s] running install_scripts
+[0.844s] Installing turtle_spawner script to /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.848s] Installing turtlesim_controller script to /home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.848s] writing list of installed files to '/home/kim/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[0.881s] Invoked command in '/home/kim/ros2_ws/src/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/kim/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/kim/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data

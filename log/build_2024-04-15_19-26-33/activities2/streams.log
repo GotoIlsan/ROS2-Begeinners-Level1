@@ -1,0 +1,45 @@
+[0.526s] Invoking command in '/home/kim/ros2_ws/src/activities2': PYTHONPATH=/home/kim/ros2_ws/build/activities2/prefix_override:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities2 build --build-base /home/kim/ros2_ws/build/activities2/build install --record /home/kim/ros2_ws/build/activities2/install.log --single-version-externally-managed install_data
+[0.668s] running egg_info
+[0.668s] creating ../../build/activities2/activities2.egg-info
+[0.668s] writing ../../build/activities2/activities2.egg-info/PKG-INFO
+[0.668s] writing dependency_links to ../../build/activities2/activities2.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../../build/activities2/activities2.egg-info/entry_points.txt
+[0.668s] writing requirements to ../../build/activities2/activities2.egg-info/requires.txt
+[0.668s] writing top-level names to ../../build/activities2/activities2.egg-info/top_level.txt
+[0.669s] writing manifest file '../../build/activities2/activities2.egg-info/SOURCES.txt'
+[0.669s] reading manifest file '../../build/activities2/activities2.egg-info/SOURCES.txt'
+[0.669s] writing manifest file '../../build/activities2/activities2.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.669s] creating /home/kim/ros2_ws/build/activities2/build
+[0.669s] creating /home/kim/ros2_ws/build/activities2/build/lib
+[0.669s] creating /home/kim/ros2_ws/build/activities2/build/lib/activities2
+[0.670s] copying activities2/number_counter.py -> /home/kim/ros2_ws/build/activities2/build/lib/activities2
+[0.670s] copying activities2/counter_reseter.py -> /home/kim/ros2_ws/build/activities2/build/lib/activities2
+[0.670s] copying activities2/__init__.py -> /home/kim/ros2_ws/build/activities2/build/lib/activities2
+[0.670s] copying activities2/number_publisher.py -> /home/kim/ros2_ws/build/activities2/build/lib/activities2
+[0.670s] running install
+[0.670s] running install_lib
+[0.670s] creating /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2
+[0.670s] copying /home/kim/ros2_ws/build/activities2/build/lib/activities2/number_counter.py -> /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2
+[0.670s] copying /home/kim/ros2_ws/build/activities2/build/lib/activities2/counter_reseter.py -> /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2
+[0.670s] copying /home/kim/ros2_ws/build/activities2/build/lib/activities2/__init__.py -> /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2
+[0.670s] copying /home/kim/ros2_ws/build/activities2/build/lib/activities2/number_publisher.py -> /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2
+[0.671s] byte-compiling /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2/number_counter.py to number_counter.cpython-310.pyc
+[0.671s] byte-compiling /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2/counter_reseter.py to counter_reseter.cpython-310.pyc
+[0.671s] byte-compiling /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2/__init__.py to __init__.cpython-310.pyc
+[0.671s] byte-compiling /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2/number_publisher.py to number_publisher.cpython-310.pyc
+[0.671s] running install_data
+[0.671s] creating /home/kim/ros2_ws/install/activities2/share/ament_index
+[0.671s] creating /home/kim/ros2_ws/install/activities2/share/ament_index/resource_index
+[0.671s] creating /home/kim/ros2_ws/install/activities2/share/ament_index/resource_index/packages
+[0.671s] copying resource/activities2 -> /home/kim/ros2_ws/install/activities2/share/ament_index/resource_index/packages
+[0.671s] copying package.xml -> /home/kim/ros2_ws/install/activities2/share/activities2
+[0.671s] running install_egg_info
+[0.672s] Copying ../../build/activities2/activities2.egg-info to /home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages/activities2-0.0.0-py3.10.egg-info
+[0.672s] running install_scripts
+[0.686s] Installing counter_reseter script to /home/kim/ros2_ws/install/activities2/lib/activities2
+[0.691s] Installing number_counter script to /home/kim/ros2_ws/install/activities2/lib/activities2
+[0.691s] Installing number_publisher script to /home/kim/ros2_ws/install/activities2/lib/activities2
+[0.691s] writing list of installed files to '/home/kim/ros2_ws/build/activities2/install.log'
+[0.704s] Invoked command in '/home/kim/ros2_ws/src/activities2' returned '0': PYTHONPATH=/home/kim/ros2_ws/build/activities2/prefix_override:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities2 build --build-base /home/kim/ros2_ws/build/activities2/build install --record /home/kim/ros2_ws/build/activities2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,414 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7161065fff40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7161065ffaf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7161065ffaf0>>)
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kim/ros2_ws'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities2) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/activities2' with type 'ros.ament_python' and name 'activities2'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/activities3) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/activities3' with type 'ros.ament_python' and name 'activities3'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_catch_them_all' with type 'ros.ament_python' and name 'turtlesim_catch_them_all'
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'activities2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'activities2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/ros2_ws/build/activities2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/ros2_ws/install/activities2', 'merge_install': False, 'path': '/home/kim/ros2_ws/src/activities2', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/kim/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'activities3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'activities3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/ros2_ws/build/activities3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/ros2_ws/install/activities3', 'merge_install': False, 'path': '/home/kim/ros2_ws/src/activities3', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/kim/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_catch_them_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/ros2_ws/build/turtlesim_catch_them_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/ros2_ws/install/turtlesim_catch_them_all', 'merge_install': False, 'path': '/home/kim/ros2_ws/src/turtlesim_catch_them_all', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/kim/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.236s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kim/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kim/ros2_ws/src/my_robot_interfaces'
+[0.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kim/ros2_ws/src/activities2' with build type 'ament_python'
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('activities2', 'ament_prefix_path')
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities2/share/activities2/hook/ament_prefix_path.ps1'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/activities2/share/activities2/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities2/share/activities2/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kim/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kim/ros2_ws/install/my_robot_interfaces
+[0.402s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kim/ros2_ws/src/activities2'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/src/activities2': PYTHONPATH=/home/kim/ros2_ws/build/activities2/prefix_override:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities2 build --build-base /home/kim/ros2_ws/build/activities2/build install --record /home/kim/ros2_ws/build/activities2/install.log --single-version-externally-managed install_data
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/src/activities2' returned '0': PYTHONPATH=/home/kim/ros2_ws/build/activities2/prefix_override:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities2 build --build-base /home/kim/ros2_ws/build/activities2/build install --record /home/kim/ros2_ws/build/activities2/install.log --single-version-externally-managed install_data
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2' for CMake module files
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2' for CMake config files
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2/lib'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2/bin'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2/lib/pkgconfig/activities2.pc'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages'
+[0.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('activities2', 'pythonpath')
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities2/share/activities2/hook/pythonpath.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/activities2/share/activities2/hook/pythonpath.dsv'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities2/share/activities2/hook/pythonpath.sh'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities2/bin'
+[0.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(activities2)
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities2/share/activities2/package.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/activities2/share/activities2/package.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities2/share/activities2/package.sh'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities2/share/activities2/package.bash'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities2/share/activities2/package.zsh'
+[0.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/activities2/share/colcon-core/packages/activities2)
+[1.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kim/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kim/ros2_ws/install/my_robot_interfaces
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kim/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[6.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kim/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[6.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kim/ros2_ws/build/my_robot_interfaces
+[7.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[7.034s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces' for CMake module files
+[7.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kim/ros2_ws/build/my_robot_interfaces
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces' for CMake config files
+[7.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[7.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[7.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[7.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/lib'
+[7.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[7.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[7.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[7.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/bin'
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[7.040s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/bin'
+[7.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[7.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[7.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[7.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[7.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces' for CMake module files
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces' for CMake config files
+[7.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[7.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[7.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/lib'
+[7.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[7.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[7.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/bin'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_interfaces/bin'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[7.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[7.382s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kim/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[7.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[7.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[7.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[7.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[7.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kim/ros2_ws/src/turtlesim_catch_them_all' with build type 'ament_python'
+[7.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'ament_prefix_path')
+[7.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.ps1'
+[7.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.dsv'
+[7.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.sh'
+[7.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.390s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kim/ros2_ws/src/activities3' with build type 'ament_python'
+[7.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('activities3', 'ament_prefix_path')
+[7.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities3/share/activities3/hook/ament_prefix_path.ps1'
+[7.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/activities3/share/activities3/hook/ament_prefix_path.dsv'
+[7.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities3/share/activities3/hook/ament_prefix_path.sh'
+[7.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.558s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kim/ros2_ws/src/my_py_pkg'
+[7.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.711s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kim/ros2_ws/src/turtlesim_catch_them_all'
+[7.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.867s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kim/ros2_ws/src/activities3'
+[7.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/src/activities3': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/activities3/prefix_override:/home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities3 build --build-base /home/kim/ros2_ws/build/activities3/build install --record /home/kim/ros2_ws/build/activities3/install.log --single-version-externally-managed install_data
+[8.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/src/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/kim/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/kim/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[8.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/my_py_pkg/prefix_override:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kim/ros2_ws/build/my_py_pkg/build install --record /home/kim/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[8.261s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3' for CMake module files
+[8.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/src/activities3' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/activities3/prefix_override:/home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activities3 build --build-base /home/kim/ros2_ws/build/activities3/build install --record /home/kim/ros2_ws/build/activities3/install.log --single-version-externally-managed install_data
+[8.263s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3' for CMake config files
+[8.264s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3/lib'
+[8.264s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3/bin'
+[8.264s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3/lib/pkgconfig/activities3.pc'
+[8.264s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages'
+[8.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('activities3', 'pythonpath')
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities3/share/activities3/hook/pythonpath.ps1'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/activities3/share/activities3/hook/pythonpath.dsv'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/activities3/share/activities3/hook/pythonpath.sh'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/activities3/bin'
+[8.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(activities3)
+[8.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities3/share/activities3/package.ps1'
+[8.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/activities3/share/activities3/package.dsv'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities3/share/activities3/package.sh'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities3/share/activities3/package.bash'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/activities3/share/activities3/package.zsh'
+[8.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/activities3/share/colcon-core/packages/activities3)
+[8.267s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all' for CMake module files
+[8.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/src/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/kim/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/kim/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[8.268s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all' for CMake config files
+[8.268s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib'
+[8.268s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all/bin'
+[8.268s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/pkgconfig/turtlesim_catch_them_all.pc'
+[8.268s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages'
+[8.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'pythonpath')
+[8.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.ps1'
+[8.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.dsv'
+[8.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.sh'
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/turtlesim_catch_them_all/bin'
+[8.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_catch_them_all)
+[8.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.ps1'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.sh'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.bash'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.zsh'
+[8.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/turtlesim_catch_them_all/share/colcon-core/packages/turtlesim_catch_them_all)
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg' for CMake module files
+[8.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/build/my_py_pkg/prefix_override:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kim/ros2_ws/build/my_py_pkg/build install --record /home/kim/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg' for CMake config files
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg/lib'
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg/bin'
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[8.290s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages'
+[8.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[8.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[8.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[8.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[8.291s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_py_pkg/bin'
+[8.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[8.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[8.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[8.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[8.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[8.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[8.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[8.293s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kim/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[8.293s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kim/ros2_ws/src/my_robot_bringup'
+[8.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all:/home/kim/ros2_ws/install/my_py_pkg:/home/kim/ros2_ws/install/my_robot_interfaces:/home/kim/ros2_ws/install/activities2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kim/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/kim/ros2_ws/install/my_robot_bringup
+[8.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all:/home/kim/ros2_ws/install/my_py_pkg:/home/kim/ros2_ws/install/my_robot_interfaces:/home/kim/ros2_ws/install/activities2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kim/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/kim/ros2_ws/install/my_robot_bringup
+[8.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all:/home/kim/ros2_ws/install/my_py_pkg:/home/kim/ros2_ws/install/my_robot_interfaces:/home/kim/ros2_ws/install/activities2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kim/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[8.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all:/home/kim/ros2_ws/install/my_py_pkg:/home/kim/ros2_ws/install/my_robot_interfaces:/home/kim/ros2_ws/install/activities2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kim/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[8.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all:/home/kim/ros2_ws/install/my_py_pkg:/home/kim/ros2_ws/install/my_robot_interfaces:/home/kim/ros2_ws/install/activities2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kim/ros2_ws/build/my_robot_bringup
+[8.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[8.879s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup' for CMake module files
+[8.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all:/home/kim/ros2_ws/install/my_py_pkg:/home/kim/ros2_ws/install/my_robot_interfaces:/home/kim/ros2_ws/install/activities2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kim/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kim/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kim/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kim/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/kim/ros2_ws/install/activities2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kim/ros2_ws/build/my_robot_bringup
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup' for CMake config files
+[8.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/bin'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/bin'
+[8.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[8.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[8.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[8.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[8.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[8.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[8.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[8.911s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup' for CMake module files
+[8.911s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup' for CMake config files
+[8.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/bin'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/kim/ros2_ws/install/my_robot_bringup/bin'
+[8.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[8.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[8.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.916s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.924s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.924s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.924s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.947s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/ros2_ws/install/local_setup.ps1'
+[8.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kim/ros2_ws/install/_local_setup_util_ps1.py'
+[8.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/ros2_ws/install/setup.ps1'
+[8.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/ros2_ws/install/local_setup.sh'
+[8.952s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kim/ros2_ws/install/_local_setup_util_sh.py'
+[8.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/ros2_ws/install/setup.sh'
+[8.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/ros2_ws/install/local_setup.bash'
+[8.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/ros2_ws/install/setup.bash'
+[8.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/ros2_ws/install/local_setup.zsh'
+[8.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/ros2_ws/install/setup.zsh'

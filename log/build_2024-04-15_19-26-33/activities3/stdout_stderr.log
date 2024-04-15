@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/activities3/activities3.egg-info
+writing ../../build/activities3/activities3.egg-info/PKG-INFO
+writing dependency_links to ../../build/activities3/activities3.egg-info/dependency_links.txt
+writing entry points to ../../build/activities3/activities3.egg-info/entry_points.txt
+writing requirements to ../../build/activities3/activities3.egg-info/requires.txt
+writing top-level names to ../../build/activities3/activities3.egg-info/top_level.txt
+writing manifest file '../../build/activities3/activities3.egg-info/SOURCES.txt'
+reading manifest file '../../build/activities3/activities3.egg-info/SOURCES.txt'
+writing manifest file '../../build/activities3/activities3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kim/ros2_ws/build/activities3/build
+creating /home/kim/ros2_ws/build/activities3/build/lib
+creating /home/kim/ros2_ws/build/activities3/build/lib/activities3
+copying activities3/battery_node.py -> /home/kim/ros2_ws/build/activities3/build/lib/activities3
+copying activities3/led_panel_node.py -> /home/kim/ros2_ws/build/activities3/build/lib/activities3
+copying activities3/__init__.py -> /home/kim/ros2_ws/build/activities3/build/lib/activities3
+running install
+running install_lib
+creating /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+copying /home/kim/ros2_ws/build/activities3/build/lib/activities3/battery_node.py -> /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+copying /home/kim/ros2_ws/build/activities3/build/lib/activities3/led_panel_node.py -> /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+copying /home/kim/ros2_ws/build/activities3/build/lib/activities3/__init__.py -> /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3
+byte-compiling /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3/battery_node.py to battery_node.cpython-310.pyc
+byte-compiling /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3/led_panel_node.py to led_panel_node.cpython-310.pyc
+byte-compiling /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kim/ros2_ws/install/activities3/share/ament_index
+creating /home/kim/ros2_ws/install/activities3/share/ament_index/resource_index
+creating /home/kim/ros2_ws/install/activities3/share/ament_index/resource_index/packages
+copying resource/activities3 -> /home/kim/ros2_ws/install/activities3/share/ament_index/resource_index/packages
+copying package.xml -> /home/kim/ros2_ws/install/activities3/share/activities3
+running install_egg_info
+Copying ../../build/activities3/activities3.egg-info to /home/kim/ros2_ws/install/activities3/lib/python3.10/site-packages/activities3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing battery_node script to /home/kim/ros2_ws/install/activities3/lib/activities3
+Installing led_panel_node script to /home/kim/ros2_ws/install/activities3/lib/activities3
+writing list of installed files to '/home/kim/ros2_ws/build/activities3/install.log'
